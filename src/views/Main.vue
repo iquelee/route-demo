@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+  <div class="main">
     <ul>
       <li>
-        <router-link to="/home/news">新闻</router-link>
+        <router-link to="/home">首页</router-link>
       </li>
       <li>
-        <router-link to="/home/message">消息</router-link>
+        <router-link to="/about">关于</router-link>
       </li>
     </ul>
     <router-view></router-view>
@@ -14,6 +14,6 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Main'
 }
 </script>
